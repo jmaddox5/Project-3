@@ -1,0 +1,30 @@
+.app {
+  text-align: center;
+  background: linear-gradient(
+    90deg,
+    rgba(2, 0, 36, 1) 0%,
+    rgba(9, 9, 121, 1) 35%,
+    rgba(0, 212, 255, 1) 100%
+  );
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+.header {
+  background: rgba(65, 62, 62, 0.8);
+  padding: 1rem;
+}
+
+.footer {
+  background: rgba(65, 62, 62, 0.8);
+  padding: 1rem;
+  margin-top: auto;
+}
+
+.app-title {
+  color: #ffcb05;
+  text-shadow: 1px 1px #3b4cca;
+  text-transform: capitalize;
+  white-space: nowrap;
+}
